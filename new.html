@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- main page for login -->
+    <div class="wrapper">
+        <header>Login for website!!</header>
+        <h1>Enter captcha to login:-</h1>
+        <div class="captcha-area">
+            <div class="captcha-img">
+                <img src="images.png" alt="captcha">
+                <span class="captcha"></span>
+            </div>
+            <button class="reload-button">Reload</button>
+        </div>
+        <form action="#" class="input-area">
+            <input type="text" class="input" placeholder="Enter Captcha" maxlength="6" required>
+            <button class="check-btn">Check</button>
+        </form>
+        <div class="status-txt"></div>
+    </div>
+  
+        <div class="user-details">
+          <!-- get email -->
+                <h2 class="title">Email:</h2>
+                <div class="input-fiel">
+                  
+                    <input type ="email" name="email" placeholder="example@example.com">
+                </div>
+                <!-- get password -->
+                <h3 class="title">Password:</h3>
+                <div class="input-fiel">
+                 
+                    <input type ="password" name="password" maxlength="6" required>
+                </div>
+                 <!-- Back button -->
+            <button type="button" id="backButton">Back</button>
+            <!-- Submit button -->
+            <button type="submit">Submit</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
